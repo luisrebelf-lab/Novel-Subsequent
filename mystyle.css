@@ -20,6 +20,7 @@ body{
 	border-left-width: 120px;
 	margin-left: auto;
 	margin-right: auto;
+	 
 }
 
 
@@ -71,3 +72,39 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 		}
+button {
+	background-color: white; /* Green background */
+  border:none;
+  padding: 5% 2%; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */ 
+ margin-left: 20px;
+  color: #0000EE;
+  text-align: center;
+  font-size: 25px;
+	box-shadow: 3px 3px 0px 0px #b5b5b6;
+}
+
+button:hover {
+	background-color: #c3c3c3;
+	color: #2755FF
+	
+}
+    .button-container {
+       display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+    }
+
+    /* Style for buttons */
+    .center-button {
+      padding: 10px 20px;
+  
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 25px;
+      transition: background-color 0.3s;
+    }
