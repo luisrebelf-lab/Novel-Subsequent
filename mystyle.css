@@ -101,8 +101,9 @@ button:hover {
     /* Style for buttons */
     .center-button {
       padding: 10px 20px;
-		border-radius:0px;
+  
       border: none;
+      border-radius: 0px;
       cursor: pointer;
       font-size: 25px;
       transition: background-color 0.3s;
