@@ -40,13 +40,20 @@ a:visited {
 	border-radius: 5px;
 	
 }
-#nav
-{
-	font-size:25px; 
-	text-align: center;
-	padding: 10px;
-	font-family: Verdana, Geneva, sans-serif;
+#nav {
+    font-size: 25px;
+    padding: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    /* Remove text-align: center; */
 }
+
+#nav a {
+    color: #0000EE;
+    padding: 10px 15px;
+    margin: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    float: left; /* This will make the link float to the left */
 #foot
 {
 	font-size:20px; 
