@@ -29,7 +29,8 @@ a:link {
 	padding:10px 15px;
 	margin: 5px 15px;
 	border-radius: 5px;
-	text-decoration: none
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 /*visited link*/
