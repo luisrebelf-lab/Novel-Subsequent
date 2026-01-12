@@ -42,6 +42,13 @@ a:visited {
 	border-radius: 5px;
 	
 }
+#single
+{
+	font-size:25px; 
+	text-align: center;
+	padding: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
 #nav
 {
 	font-size:25px; 
