@@ -30,8 +30,6 @@ a:link {
 	margin: 5px 15px;
 	border-radius: 5px;
 	text-decoration: none;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size:25px;
 }
 
 /*visited link*/
@@ -45,7 +43,6 @@ a:visited {
 #single
 {
 	font-size:25px; 
-	text-align: center;
 	padding: 10px;
 	font-family: Verdana, Geneva, sans-serif;
 }
