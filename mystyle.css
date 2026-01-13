@@ -72,6 +72,13 @@ h2 {
 	font-family: 'Courier New', monospace; font-weight: bold;
 			text-align: center; font-size: 30px;
 }
+h3 {
+	font-size:25px; 
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
 body{ 
 	background-color: #535353;
 	max-width: 1000px;
