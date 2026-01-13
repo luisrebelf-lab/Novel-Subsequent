@@ -43,7 +43,9 @@ a:visited {
 #single
 {
 	font-size:25px; 
-	padding: 10px;
+padding-left: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	font-family: Verdana, Geneva, sans-serif;
 }
 #nav
