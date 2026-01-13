@@ -41,7 +41,7 @@ a:visited {
 	
 }
 .command {
-  font-family: 'Courier New', monospace;
+font-family: Verdana, Geneva, sans-serif;
   font-weight: bold;
   font-size: 25px;
   padding: 25px;
