@@ -40,13 +40,24 @@ a:visited {
 	border-radius: 5px;
 	
 }
-#single
-{
-	font-size:25px; 
-padding-left: 0px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	font-family: Verdana, Geneva, sans-serif;
+.command {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 25px;          /* EXACTLY matches your <p> padding */
+  margin: 0;
+}
+
+.command a {
+  color: #0000EE;
+  text-decoration: underline;
+  padding: 0;
+  margin: 0;
+}
+
+.command a:hover {
+  background: none;
+  color: #2755FF;
 }
 #nav
 {
