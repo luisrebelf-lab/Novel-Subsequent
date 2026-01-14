@@ -42,7 +42,7 @@ a:visited {
 }
 .command {
 font-family: Verdana, Geneva, sans-serif;
-
+ font-weight: normal;
   font-size: 25px;
   padding: 25px;
   margin: 0;
@@ -66,12 +66,36 @@ font-family: Verdana, Geneva, sans-serif;
   background: none;
   color: #2755FF;
 }
-#nav
-{
-	font-size:25px; 
-	text-align: center;
-	padding: 10px;
-	font-family: Verdana, Geneva, sans-serif;
+#nav {
+  display: flex;
+  justify-content: center;
+  gap: 60px; /* spacing BETWEEN commands */
+  font-size: 25px;
+  font-family: Verdana, Geneva, sans-serif;
+  padding: 20px 0;
+}
+
+/* Each "> Command" unit */
+.command-item {
+  white-space: nowrap;
+}
+
+/* The > symbol */
+#nav .cmd {
+  color: black;
+  margin-right: 6px; /* tight spacing like typing */
+}
+
+/* NAV links only — override global anchor spacing */
+#nav a {
+  padding: 0;
+  margin: 0;
+  color: #0000EE;
+  text-decoration: underline;
+}
+
+#nav a:hover {
+  color: #2755FF;
 }
 #foot
 {
