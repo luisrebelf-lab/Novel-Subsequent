@@ -44,7 +44,7 @@ a:visited {
 font-family: Verdana, Geneva, sans-serif;
  font-weight: normal;
   font-size: 25px;
-  padding: 25px;
+  padding: 15px 45px 45px;
   margin: 0;
   white-space: pre; /* CRITICAL */
 }
@@ -72,7 +72,7 @@ font-family: Verdana, Geneva, sans-serif;
   gap: 60px; /* spacing BETWEEN commands */
   font-size: 25px;
   font-family: Verdana, Geneva, sans-serif;
-  padding: 20px 0;
+padding: 15px 45px 45px;
 }
 
 /* Each "> Command" unit */
@@ -106,7 +106,7 @@ font-family: Verdana, Geneva, sans-serif;
 	padding: 15px
 }
 p{
- font-family: 'Courier New', monospace; font-weight: bold; padding: 25px;font-size: 25px;
+ font-family: 'Courier New', monospace; font-weight: bold; padding:0px 45px ;font-size: 20px;
 		}
 h1 {
 			font-family: 'Courier New', monospace; font-weight: bold;
@@ -116,13 +116,7 @@ h2 {
 	font-family: 'Courier New', monospace; font-weight: bold;
 			text-align: center; font-size: 30px;
 }
-h3 {
-	font-size:25px; 
-	padding-left: 10px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	font-family: Verdana, Geneva, sans-serif;
-}
+
 body{ 
 	background-color: #535353;
 	max-width: 1000px;
